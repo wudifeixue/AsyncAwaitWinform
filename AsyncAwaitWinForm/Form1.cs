@@ -33,10 +33,13 @@ namespace AsyncAwaitWinForm
 
         }
 
-        private void btnProcessFile_Click(object sender, EventArgs e)
+        private async void btnProcessFile_Click(object sender, EventArgs e)
         {
+            Task<int> task = new Task<int>(CountCharacters);
+            task.Start();
+
             lblCount.Text = "Processing File. Please wait...";
-            int count = CountCharacters();
+            int count = await task;
             lblCount.Text = count.ToString() + " charaters in file";
         }
     }

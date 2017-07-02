@@ -35,7 +35,7 @@
             // btnProcessFile
             // 
             this.btnProcessFile.Font = new System.Drawing.Font("SimSun", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnProcessFile.Location = new System.Drawing.Point(181, 55);
+            this.btnProcessFile.Location = new System.Drawing.Point(62, 12);
             this.btnProcessFile.Name = "btnProcessFile";
             this.btnProcessFile.Size = new System.Drawing.Size(250, 79);
             this.btnProcessFile.TabIndex = 0;
@@ -47,7 +47,7 @@
             // 
             this.lblCount.AutoSize = true;
             this.lblCount.Font = new System.Drawing.Font("SimSun", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblCount.Location = new System.Drawing.Point(179, 187);
+            this.lblCount.Location = new System.Drawing.Point(59, 123);
             this.lblCount.Name = "lblCount";
             this.lblCount.Size = new System.Drawing.Size(0, 14);
             this.lblCount.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(633, 306);
+            this.ClientSize = new System.Drawing.Size(383, 221);
             this.Controls.Add(this.lblCount);
             this.Controls.Add(this.btnProcessFile);
             this.Name = "Form1";
